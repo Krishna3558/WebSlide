@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Section</title>
+    <link rel="stylesheet" href="./output.css">
+    <style>
+        @keyframes spin360 {
+          from {
+            transform: rotate(0deg);
+          }
+          to {
+            transform: rotate(360deg);
+          }
+        }
+    </style>
+</head>
+<body>
+    <div id="assignment" class=" h-96 bg-purple-950 px-12 py-6" >
+        <h1 class=" text-white uppercase text-lg font-semibold max-lg:text-sm">our services</h1>
+        <div class=" h-full w-full flex justify-between mt-8">
+            <div class=" bg-white h-3/4 w-1/5 hover:animate-spin360 text-center px-6 flex flex-col justify-between py-8 ">
+                <h1 class="capitalize font-bold">emergency plumbing services</h1>
+                <p class=" text-base ">Our plumbers are ready to go 24/7 for emergencies , including 
+                    nights , weekends and holidays
+                </p>
+                <a class=" uppercase font-bold text-purple-500" href="exploreservice">explore this service ></a>
+            </div>
+            <div class=" bg-white border-2 border-black rounded-full h-16 w-16 absolute top-[49px] left-[10%] bg-cover" style="background-image: url('phonecallicon.webp');"></div>
+            <div class=" bg-white h-3/4 w-1/5 hover:animate-spin360 text-center px-6 flex flex-col justify-between py-8">
+                <h1 class="capitalize font-bold">plumbing and drains</h1>
+                <p>As the largest plumbing and drain service company , we make thousands
+                    of repairs everyday.
+                </p>
+                <a class=" uppercase font-bold text-purple-500" href="exploreservice">explore this service ></a>
+            </div>
+            <div class=" bg-white border-2 border-black rounded-full h-16 w-16 absolute top-[49px] left-[35%] bg-cover" style="background-image: url('pipe.png');"></div>
+            <div class=" bg-white h-3/4 w-1/5 hover:animate-spin360 text-center px-6 flex flex-col justify-between py-8">
+                <h1 class="capitalize font-bold">water damage</h1>
+                <p class=" text-base">Our team is equipped with state-of-the-art water extraction and cleanup equipment.
+                </p>
+                <a class=" uppercase font-bold text-purple-500" href="exploreservice">explore this service ></a>
+            </div>
+            <div class=" bg-white border-2 border-black rounded-full h-16 w-16 absolute top-[49px] left-[60%] bg-cover" style="background-image: url('waterdrop.png');"></div>
+            <div class=" bg-white h-3/4 w-1/5 hover:animate-spin360 text-center px-6 flex flex-col justify-between py-8">
+                <h1 class="capitalize font-bold">water heaters</h1>
+                <p>Trust Roto-Rooter for repair and replacement of gas , electric  
+                    and tankless water heaters.
+                </p>
+                <a class=" uppercase font-bold text-purple-500" href="exploreservice">explore this service ></a>
+            </div>
+            <div class=" bg-white border-2 border-black rounded-full h-16 w-16 absolute top-[49px] left-[86%] bg-cover" style="background-image: url('heater.png');"></div>
+            <style>
+                .hover\:animate-spin360:hover {
+                  animation: spin360 1s linear;
+                }
+            </style>
+        </div>
+    </div>
+</body>
+</html>
